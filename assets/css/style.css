@@ -4,6 +4,7 @@ body {
   line-height: 34px;
   color: #777;
   background: url("../images/concrete_seamless.png");
+  height: 100%;
 }
 
 * {
@@ -78,14 +79,14 @@ h3 {
 }
 
 nav {
-  float: right;
-  margin-top: 25px;
+  /* float: right; */
+  /* margin-top: 25px; */
 }
 
 nav a {
   display: inline-block;
-  padding-left: 15px;
-  margin-left: 15px;
+  /* padding-left: 15px; */
+  /* margin-left: 15px; */
   line-height: 18px;
   color: #999;
   text-decoration: none;
@@ -214,4 +215,14 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+.btnStyle {
+  background-color: #4aaaa5;
+  border-bottom-color: #4aaaa5;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-color: #4aaaa5;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
